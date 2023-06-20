@@ -11,7 +11,7 @@
 }
 
 header {
-    padding: 0 30px 0 30px;
+    padding: 0 30px 0 40px;
 }
 
 body {
@@ -211,15 +211,16 @@ font-size: 17px;
     align-items: center;
 }
 
-.info-bloc i {
-    /*display: flex;
-    align-content: baseline;
-    padding: 6px;*/
-    font-size: 11px;
-    color: var(--main-color);
+.info-bloc p {
+    margin-bottom: 1rem;
 }
 
-.icon {
+.info-bloc i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: var(--main-color);
     box-sizing: border-box;
     width: 24px;
     height: 24px;
@@ -409,6 +410,7 @@ font-size: 17px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 .activites-content {
