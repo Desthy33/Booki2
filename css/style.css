@@ -11,7 +11,8 @@
 }
 
 header {
-    padding: 0 30px 0 40px;
+padding-right: 50px;
+padding-left: 50px;
 }
 
 body {
@@ -19,7 +20,6 @@ body {
     min-width: 1025px;
     margin: auto;
 }
-
 
 h1 {
     font-size: 22px;
@@ -47,7 +47,6 @@ a {
 }
 
 /****** Header ***********/
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -121,8 +120,6 @@ button {
 }
 
 /****** formulaire ***********/
-
-
 form {
     display: flex;
     width: fit-content;
@@ -173,7 +170,6 @@ input {
 }
 
 /****** filtres ***********/
-
 .filter {
     display: flex;
     justify-content: flex-start;
@@ -231,7 +227,6 @@ font-size: 17px;
 }
 
 /****** Cartes et sections ***********/
-
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -274,8 +269,9 @@ font-size: 17px;
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
+    width: calc(100% - 62px); 
     gap: 40px;
-    padding: 0%;
+    padding-left: 12px;
 }
 
 .hebergements-and-populaires section {
@@ -288,7 +284,7 @@ font-size: 17px;
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 62%;
     height: fit-content;
 }
 
@@ -339,7 +335,7 @@ font-size: 17px;
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 33%;
 }
 
 .populaires-title {
@@ -383,25 +379,22 @@ font-size: 17px;
     margin-bottom: 5px;
 }
 
-/****** activites ***********/
+/****** Activités ***********/
 .activites  {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .activites-title {
-    margin: 0;
+    margin: 35px 0;
     font-size: 22px;
-    padding-left: 20px;
 }
 
 .activites-cards{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
     height: 440px;
-    gap: 30px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    padding: 35px 15px ;
 }
 
 .activites-cards img {
@@ -423,20 +416,18 @@ font-size: 17px;
     padding-left: 15px;
 }
 
-
 /****** Footer ***********/
-
 footer{
     background-color: var(--main-bg-color);
-    margin-left: 42px ;
+    margin: 65px 50px 0 50px;
 }
 
-.footer-section {
+footer .bloc {
     display: flex;
 }
 
 footer .txt {
-    width: calc( (100% - 60px) / 3 );
+    width: calc( (100% - 20px) / 3 );
     box-sizing: border-box;
     margin: 0;
     padding: 20px;
@@ -445,8 +436,6 @@ footer .txt {
 footer h2{
     margin: 0;
 }
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
